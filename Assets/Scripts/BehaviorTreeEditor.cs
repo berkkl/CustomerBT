@@ -56,8 +56,6 @@ public class BehaviorTreeEditor : EditorWindow
 
 	Color GetNodeColor(Node node)
 	{
-		if (node is Selector)
-			return Color.red;
 		if (node is RSelector)
 			return Color.magenta;
 		if (node is Sequence)
